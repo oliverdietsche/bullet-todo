@@ -4,6 +4,8 @@ An app to manage your tasks. The layout and functionality is inspired by a journ
 
 ## Storybook
 
+[https://main--5fd9c9c498569c0021ebcc58.chromatic.com/](Latest Storybook)
+
 ## PWA
 
 ## Development Environment
