@@ -1,0 +1,1 @@
+export type TStatus = 'OPEN' | 'DONE' | 'REMOVED' | 'SCHEDULED' | 'UNSCHEDULED' | 'MIGRATED-FUTURE' | 'MIGRATED-PAST';
