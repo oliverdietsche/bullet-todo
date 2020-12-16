@@ -6,9 +6,19 @@ An app to manage your tasks. The layout and functionality got inspired by a jour
 
 This app stores its data in the local storage at the moment. Thus, your changes will be persisted per device but can't be synced across platforms.
 
+## Table of Contents
+
+[Storybook](#storybook)
+
+[PWA](#pwa)
+
+<a name="storybook"/>
+
 ## Storybook
 
 > [Latest Storybook](https://main--5fd9c9c498569c0021ebcc58.chromatic.com/)
+
+<a name="pwa"/>
 
 ## PWA
 
@@ -21,5 +31,3 @@ On the desktop, you can add it via the plus button at the end of the url bar:
 
 On mobile, there should appear a bar at the bottom to add it to the homescreen:
 <img src="./readme/pwa-mobile-demo.png" height="400px"/>
-
-## Development Environment
