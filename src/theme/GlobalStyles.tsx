@@ -1,6 +1,4 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import { css, Global, jsx } from '@emotion/core';
+import { css, Global } from '@emotion/react';
 import { useTheme } from './ThemeProvider';
 
 export function GlobalStyles() {

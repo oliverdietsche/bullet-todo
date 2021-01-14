@@ -1,6 +1,4 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import { css, jsx } from '@emotion/core';
+import { css } from '@emotion/react';
 import { BottomNavigation, BottomNavigationAction, Fab } from '@material-ui/core';
 import AddIcon from '@material-ui/icons/Add';
 import AlarmOffIcon from '@material-ui/icons/AlarmOff';

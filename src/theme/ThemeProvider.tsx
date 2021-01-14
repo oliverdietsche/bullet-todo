@@ -1,5 +1,5 @@
 import { StylesProvider, Theme, ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
-import { ThemeProvider as EmotionThemeProvider, useTheme as useEmotionTheme } from 'emotion-theming';
+import { ThemeProvider as EmotionThemeProvider, useTheme as useEmotionTheme } from '@emotion/react';
 import React, { ReactNode } from 'react';
 import { THEME } from './const';
 import { GlobalStyles } from './GlobalStyles';

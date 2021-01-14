@@ -1,6 +1,4 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import { css, jsx } from '@emotion/core';
+import { css } from '@emotion/react';
 import { ITask } from '../../interfaces';
 import { useTheme } from '../../theme';
 
@@ -28,7 +26,7 @@ export function TaskKey({ status }: ITaskKeyProps) {
 					border-radius: 50%;
 					${status !== 'OPEN' ? 'top: 14px; left: 14px; width: 2px; height: 2px;' : ''}
 				}
-				
+
 				${status === 'REMOVED'
 					? `
 						::before {

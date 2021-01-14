@@ -1,6 +1,4 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import { css, jsx } from '@emotion/core';
+import { css } from '@emotion/react';
 import { Checkbox, FormControlLabel, Grid, Typography } from '@material-ui/core';
 import { ChangeEvent } from 'react';
 import { useTaskConfig } from '../../providers';

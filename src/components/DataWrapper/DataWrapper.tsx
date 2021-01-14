@@ -1,6 +1,4 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import { css, jsx } from '@emotion/core';
+import { css } from '@emotion/react';
 import { Typography } from '@material-ui/core';
 import { Fragment, ReactNode } from 'react';
 import { useTheme } from '../../theme';

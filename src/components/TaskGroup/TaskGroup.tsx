@@ -1,6 +1,4 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import { Fragment } from 'react';
 import { Heading, Task } from '..';
 import { ITask } from '../../interfaces';
@@ -15,7 +13,7 @@ import {
 	groupTasksByDay,
 	sortTasksByStateOpenFirst,
 	sortTasksByTimeAscending,
-	sortTasksByTimeDescending
+	sortTasksByTimeDescending,
 } from '../../services';
 
 export interface ITaskGroupProps {

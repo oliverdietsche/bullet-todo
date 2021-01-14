@@ -1,7 +1,5 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
 import DateFnsUtils from '@date-io/date-fns';
-import { css, jsx } from '@emotion/core';
+import { css } from '@emotion/react';
 import { Button, Checkbox, FormControlLabel, Grid, TextField, Typography } from '@material-ui/core';
 import { DatePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
 import { useRouter } from 'next/dist/client/router';

@@ -1,6 +1,4 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import { css, jsx } from '@emotion/core';
+import { css } from '@emotion/react';
 import { IconButton } from '@material-ui/core';
 import AlarmOffIcon from '@material-ui/icons/AlarmOff';
 import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
@@ -25,7 +23,7 @@ export function Task({ id, text, status }: ITaskProps) {
 
 	const handleEditEnd = (newText: string) => {
 		setIsEditActive(false);
-		updateTaskText(id, newText)
+		updateTaskText(id, newText);
 	};
 
 	const handleFinishClick = () => finishTask(id);

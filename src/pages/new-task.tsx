@@ -1,6 +1,4 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import { css, jsx } from '@emotion/core';
+import { css } from '@emotion/react';
 import { Container } from '@material-ui/core';
 import { TaskForm } from '../components';
 import { CONTENT_HEIGHT } from '../theme';
