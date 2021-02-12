@@ -1,7 +1,6 @@
 import { css } from '@emotion/react';
 import { TextField, Typography } from '@material-ui/core';
 import { ChangeEvent, FocusEvent, KeyboardEvent, useState } from 'react';
-import { ITask } from '../../interfaces';
 import { useTheme } from '../../theme';
 
 export interface ITaskTextProps extends Pick<ITask, 'status'> {

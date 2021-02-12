@@ -1,5 +1,4 @@
 import { css } from '@emotion/react';
-import { ITask } from '../../interfaces';
 import { useTheme } from '../../theme';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
