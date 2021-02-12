@@ -1,5 +1,5 @@
-import { StylesProvider, Theme, ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
-import { ThemeProvider as EmotionThemeProvider, useTheme as useEmotionTheme } from '@emotion/react';
+import { Theme, ThemeProvider as EmotionThemeProvider, useTheme as useEmotionTheme } from '@emotion/react';
+import { StylesProvider, ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import React, { ReactNode } from 'react';
 import { THEME } from './const';
 import { GlobalStyles } from './GlobalStyles';
@@ -21,4 +21,4 @@ export function ThemeProvider({ children }: IThemeProviderProps) {
 	);
 }
 
-export const useTheme = () => useEmotionTheme<Theme>();
+export const useTheme = (): Theme => useEmotionTheme();

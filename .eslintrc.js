@@ -16,6 +16,7 @@ module.exports = {
 				complexity: 0,
 				'react/sort-comp': 0,
 				'valid-jsdoc': 0,
+				'react/react-in-jsx-scope': 'off',
 			},
 			settings: {
 				react: {
