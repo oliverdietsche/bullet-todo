@@ -1,5 +1,4 @@
 import React, { createContext, ReactNode, useContext, useState } from 'react';
-import { IConfig } from '../interfaces';
 
 export interface IConfigContext {
 	config: IConfig;

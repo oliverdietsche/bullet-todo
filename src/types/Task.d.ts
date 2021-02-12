@@ -1,6 +1,4 @@
-import { TStatus } from '../types';
-
-export interface ITask {
+interface ITask {
 	id: string;
 	text: string;
 	status: TStatus;

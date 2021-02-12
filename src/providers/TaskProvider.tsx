@@ -1,6 +1,5 @@
 import React, { createContext, ReactNode, useContext } from 'react';
 import { useHistory, useLocalStorage } from '../hooks';
-import { ITask } from '../interfaces';
 
 export interface ITaskContext {
 	tasks: ITask[] | undefined | null;

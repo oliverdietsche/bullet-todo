@@ -7,7 +7,6 @@ import DoneIcon from '@material-ui/icons/Done';
 import EditIcon from '@material-ui/icons/Edit';
 import { useState } from 'react';
 import { TaskKey, TaskText } from '..';
-import { ITask } from '../../interfaces';
 import { useTask } from '../../providers';
 import { useTheme } from '../../theme';
 import { DatePickerDialog } from '../DatePickerDialog';

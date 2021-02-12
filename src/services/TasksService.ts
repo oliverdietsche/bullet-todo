@@ -1,5 +1,4 @@
 import { addDays, subDays, format, isToday } from 'date-fns';
-import { IConfig, ITask, ITaskGroup } from '../interfaces';
 
 export const filterVisibility = (taskConfig: IConfig['task']) => (task: ITask) => {
 	return !(

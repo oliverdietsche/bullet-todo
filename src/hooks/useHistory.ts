@@ -6,7 +6,6 @@ export const useHistory = <TData>(data: TData): { undo: () => TData | null; push
 	const didUndo = useRef(false);
 
 	const undo = () => {
-		console.log(history.current);
 		const previousTasks = history.current.pop();
 		if (!previousTasks) return null;
 		didUndo.current = true;

@@ -1,4 +1,4 @@
-export interface IConfig {
+interface IConfig {
 	task: {
 		showMigratedFuture: boolean;
 		showMigratedPast: boolean;

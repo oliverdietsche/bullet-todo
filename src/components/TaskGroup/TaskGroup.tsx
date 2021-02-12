@@ -1,7 +1,5 @@
-import { jsx } from '@emotion/react';
 import { Fragment } from 'react';
 import { Heading, Task } from '..';
-import { ITask } from '../../interfaces';
 import { useTaskConfig } from '../../providers';
 import {
 	filterTasksNewerThanDays,

@@ -1,5 +1,3 @@
-import { ITask } from '../interfaces';
-
 export const ExampleTasks: ITask[] = [
 	{
 		id: '1',
