@@ -8,15 +8,7 @@ This app stores its data in the local storage at the moment. Thus, your changes 
 
 ## Table of Contents
 
-[Storybook](#storybook)
-
 [PWA](#pwa)
-
-<a name="storybook"/>
-
-## Storybook
-
-> [Latest Storybook](https://bullet-todo-storyboard.vercel.app/)
 
 <a name="pwa"/>
 
